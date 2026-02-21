@@ -140,9 +140,7 @@ export default function Hero() {
             </p>
             
             <p className="text-cyber-text/80 leading-relaxed mb-8 max-w-lg">
-              AI researcher at <strong className="text-cyber-cyan">IIT (BHU) Varanasi</strong> working on 
-              reinforcement learning, safe & ethical AI, reasoning, interpretability, and computer vision. 
-              2 arXiv papers · 7+ industry roles · currently breaking state-of-the-art models constructively.
+              AI researcher at <strong className="text-cyber-cyan">IIT (BHU) Varanasi</strong> obsessed with making AI safer, smarter, and more honest. I work across post-training alignment, reasoning, interpretability, learning on graphs, and active learning — with active papers on LLM fatigue, multi-agent systems, and biomedical NLP. I don't just study AI, I ship it — 7+ industry roles, and consult early-stage founders on building with AI. Hardcore researcher at heart: if there's an unsolved problem, I'm already thinking about it.
             </p>
             
             <div className="flex flex-wrap gap-3">
