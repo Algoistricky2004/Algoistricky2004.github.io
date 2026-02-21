@@ -12,7 +12,6 @@ const TYPEWRITER_PHRASES = [
   'LLM Alignment Nerd.',
   'Math Puzzle Addict.',
   'Car Enthusiast.',
-  'Debugging Expert.',
 ]
 
 export default function Hero() {
