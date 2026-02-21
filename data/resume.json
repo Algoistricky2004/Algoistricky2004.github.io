@@ -1,0 +1,280 @@
+{
+  "name": "Chirag Chawla",
+  "rollNo": "22054010",
+  "phone": "+91-8295822885",
+  "email": "chiragchawla2021@gmail.com",
+  "degree": "B.Tech + M.Tech \u2014 Department of Industrial Chemistry",
+  "institute": "Indian Institute of Technology (BHU) Varanasi",
+  "years": "2022\u20132027",
+  "location": "Varanasi, India",
+  "tagline": "I break models for breakfast, tune them over lunch, and debug for dessert.",
+  "bio": "AI researcher at IIT (BHU) Varanasi obsessed with making AI safer, smarter, and more honest. I work across post-training alignment, reasoning, interpretability, learning on graphs, and active learning — with active papers on LLM fatigue, multi-agent systems, and biomedical NLP. I don't just study AI, I ship it — 7+ industry roles, and consult early-stage founders on building with AI. Hardcore researcher at heart: if there's an unsolved problem, I'm already thinking about it.",
+  "funFacts": [
+    "\ud83d\ude97 Certified car enthusiast \u2014 can talk torque curves and gradient descent in the same breath",
+    "\ud83e\uddee Solves math puzzles for fun (yes, really)",
+    "\u2615 Runs on coffee and CUDA kernels",
+    "\ud83c\udfaf IIT student who accidentally became an AI researcher",
+    "\ud83d\udd2c Industrial Chemistry \u2192 AI Research: the most unexpected career arc"
+  ],
+  "links": {
+    "linkedin": "https://linkedin.com/in/chirag-chawla-888025254",
+    "github": "https://github.com/Algoistricky2004",
+    "scholar": "https://scholar.google.com/citations?user=TtyaWYAAAAAJ&hl=en",
+    "email": "chiragchawla2021@gmail.com",
+    "twitter": "https://x.com/CHIRAG_Chawla1"
+  },
+  "education": [
+    {
+      "degree": "B.Tech + M.Tech",
+      "field": "Industrial Chemistry",
+      "institute": "Indian Institute of Technology (BHU) Varanasi",
+      "year": "2022\u20132027",
+      "cgpa": "In Progress"
+    },
+    {
+      "degree": "Senior Secondary",
+      "field": "",
+      "institute": "CBSE Board",
+      "year": "2021",
+      "cgpa": "92%"
+    },
+    {
+      "degree": "Secondary",
+      "field": "",
+      "institute": "CBSE Board",
+      "year": "2019",
+      "cgpa": "90%"
+    }
+  ],
+  "experience": [
+    {
+      "role": "AI Research Intern",
+      "company": "Lexsi Labs (prev. AryaXAI)",
+      "period": "Jul 2025 \u2013 Present",
+      "type": "Remote",
+      "highlights": [
+        "Co-first author of AlignTune (arXiv 2026), modular post-training alignment toolkit for LLMs",
+        "Integrated SFT and RLHF-style methods (GRPO, PPO, IFT, DPO) with composable reward functions",
+        "Building safety guardrails and critic-based decoding for inference-time alignment",
+        "Extended after 6 months for strong performance"
+      ]
+    },
+    {
+      "role": "AI Researcher",
+      "company": "University of Illinois Chicago",
+      "period": "Dec 2024 \u2013 Present",
+      "type": "Remote (Supervised by Dr. Shweta Yadav)",
+      "highlights": [
+        "Co-authored PERCS: Persona-Guided Controllable Biomedical Summarization Dataset (arXiv:2512.03340)",
+        "Researching Multi-Objective Reinforcement Learning (MORL) for language generation",
+        "Modified Hugging Face GenerationMixin for agent-aware sampling and dynamic decoding policies",
+        "Explored lookahead and agent-aware decoding strategies for multi-agent coherence"
+      ]
+    },
+    {
+      "role": "Chief Technology Officer (CTO)",
+      "company": "21Spheres",
+      "period": "Dec 2024 \u2013 Jun 2025",
+      "type": "Remote / India",
+      "highlights": [
+        "Promoted from AI Research Intern to CTO, leading agentic AI division",
+        "Designed AI solutions and implementation roadmaps for B2B clients",
+        "Led teams developing practical, deployable AI systems"
+      ]
+    },
+    {
+      "role": "Freelance AI Consultant",
+      "company": "Various Startups",
+      "period": "Jan 2024 \u2013 Present",
+      "type": "Remote",
+      "highlights": [
+        "Advised startups on AI strategy, product decisions, and state-of-the-art techniques",
+        "Collaborated with IIT BHU seniors on MVP development"
+      ]
+    },
+    {
+      "role": "Research Assistant",
+      "company": "University of Louisiana at Lafayette (AICSIL)",
+      "period": "Dec 2024 \u2013 Mar 2025",
+      "type": "Remote (Dr. Shuvalaxmi Dass)",
+      "highlights": [
+        "Researched configuration hardening security for enterprise environments",
+        "Investigated black-box and white-box attack strategies on AI systems",
+        "Designed benchmarks for AI model security against adversarial attacks"
+      ]
+    },
+    {
+      "role": "AI Research Intern",
+      "company": "IIT (BHU) \u2014 Dept. of CSE",
+      "period": "Oct 2024 \u2013 Feb 2025",
+      "type": "Varanasi, India",
+      "highlights": [
+        "Research under Prof. Anil Kumar Singh on gender in Hindi grammatical systems",
+        "Applied canonical correlation analysis for gender classification in inanimate nouns",
+        "Developed machine translation systems for low-resource languages"
+      ]
+    },
+    {
+      "role": "AI Software Developer",
+      "company": "ExcelGens, Inc.",
+      "period": "Sep 2024 \u2013 Dec 2024",
+      "type": "Remote",
+      "highlights": [
+        "Built agentic RAG frameworks with autonomous retrieval and generation agents",
+        "Developed multimodal architectures integrating text, images, and documents",
+        "Integrated Vision-Language Models (VLMs) for improved multimodal understanding"
+      ]
+    },
+    {
+      "role": "Data Science Intern",
+      "company": "Tvarit Solutions Pvt Ltd",
+      "period": "May 2024 \u2013 Jul 2024",
+      "type": "Pune, Maharashtra",
+      "highlights": [
+        "Developed AI models to minimize production scrap in industrial environments",
+        "Implemented LSTM and ARIMA models for forecasting and anomaly detection",
+        "Built AWS + Airflow pipelines with Docker/Kubernetes for MLOps"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "aligntune-demo",
+      "title": "AlignTune",
+      "description": "Modular post-training alignment toolkit for reasoning-focused LLMs integrating SFT, GRPO, PPO, IFT, and DPO with composable reward functions.",
+      "tags": [
+        "LLM",
+        "RLHF",
+        "PyTorch",
+        "HuggingFace",
+        "Alignment"
+      ],
+      "github": "https://github.com/Algoistricky2004",
+      "arxiv": "https://arxiv.org/abs/2602.09621",
+      "highlight": true,
+      "year": 2026
+    },
+    {
+      "id": "percs-demo",
+      "title": "PERCS Dataset",
+      "description": "Persona-guided controllable biomedical summarization dataset with persona-tailored summaries for clinicians, policymakers, patients, and students.",
+      "tags": [
+        "NLP",
+        "Biomedical",
+        "Dataset",
+        "Controllable Generation"
+      ],
+      "github": "https://github.com/Algoistricky2004",
+      "arxiv": "https://arxiv.org/abs/2512.03340",
+      "highlight": true,
+      "year": 2025
+    },
+    {
+      "id": "multimodal-rag",
+      "title": "Multimodal RAG with CLIP & OpenAI",
+      "description": "Image-and-text RAG pipeline using CLIP ViT-L/14, FAISS vector store, and GPT-4o. FastAPI + Streamlit demo with streamed responses.",
+      "tags": [
+        "RAG",
+        "CLIP",
+        "FAISS",
+        "GPT-4o",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "github": "https://github.com/Algoistricky2004",
+      "highlight": true,
+      "year": 2025
+    },
+    {
+      "id": "vae-cyclegan",
+      "title": "MRI \u2192 CT Image Translation (VAE\u2013CycleGAN)",
+      "description": "Model to convert MRI images to CT images using a VAE\u2013CycleGAN architecture, with epistemic uncertainty shaping in latent space for safer medical deployment.",
+      "tags": [
+        "GAN",
+        "VAE",
+        "Medical Imaging",
+        "PyTorch",
+        "CycleGAN",
+        "Computer Vision"
+      ],
+      "github": "https://github.com/Algoistricky2004",
+      "highlight": false,
+      "year": 2024
+    },
+    {
+      "id": "fno-darcy",
+      "title": "Fourier Neural Operator (2D DarcyFlow PDE)",
+      "description": "Implemented FNO for solving 2D DarcyFlow PDE. Progressive training from coarse to fine resolution with spectral feature visualization.",
+      "tags": [
+        "Scientific ML",
+        "FNO",
+        "PDE",
+        "PyTorch",
+        "Fluid Dynamics"
+      ],
+      "github": "https://github.com/Algoistricky2004",
+      "highlight": false,
+      "year": 2025
+    },
+    {
+      "id": "deq-cnn",
+      "title": "Implicit Deep Equilibrium CNN",
+      "description": "Convolutional model using Deep Equilibrium Models (DEQ) via TorchDEQ with implicit solver for infinite-depth transformations in constant memory.",
+      "tags": [
+        "DEQ",
+        "TorchDEQ",
+        "CNN",
+        "Implicit Models"
+      ],
+      "github": "https://github.com/Algoistricky2004",
+      "highlight": false,
+      "year": 2024
+    }
+  ],
+  "skills": {
+    "programming": [
+      "Python",
+      "C/C++",
+      "JavaScript",
+      "HTML/CSS",
+      "SQL",
+      "MongoDB",
+      "Node.js",
+      "React.js"
+    ],
+    "mlFrameworks": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "HuggingFace",
+      "LangChain",
+      "LlamaIndex"
+    ],
+    "tools": [
+      "AWS",
+      "GCP",
+      "Docker",
+      "Kubernetes",
+      "Airflow",
+      "Git",
+      "FastAPI",
+      "Flask",
+      "Django"
+    ],
+    "domains": [
+      "Reinforcement Learning",
+      "Safe & Ethical AI",
+      "Reasoning",
+      "Interpretability",
+      "Computer Vision",
+      "Diffusion Models",
+      "LLM Alignment",
+      "RLHF / Post-Training",
+      "Multi-Agent Systems",
+      "RAG & Retrieval",
+      "Biomedical NLP",
+      "AI Safety",
+      "Graph ML"
+    ]
+  }
+}
