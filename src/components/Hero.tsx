@@ -153,7 +153,7 @@ export default function Hero() {
               </a>
               <a href="#contact"
                 className="flex items-center gap-2 px-5 py-2.5 glass border border-cyber-coral/30 text-cyber-coral font-display font-600 text-sm rounded hover:border-cyber-coral/60 transition-all duration-200">
-                <Briefcase size={16} /> Hire Me
+                <Briefcase size={16} /> Let's Collaborate
               </a>
             </div>
           </div>
