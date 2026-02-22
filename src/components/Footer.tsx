@@ -6,7 +6,7 @@ export default function Footer() {
           Built by <span className="text-cyber-cyan">Chirag Chawla</span> · Vite + React + Tailwind
         </p>
         <p className="opacity-50">
-          © 2025 · IIT (BHU) Varanasi
+          © 2025 · Chirag Chawla
         </p>
         <div className="flex gap-4">
           <a href="https://github.com/Algoistricky2004" target="_blank" rel="noopener noreferrer"
