@@ -12,17 +12,7 @@ const TAG_COLORS: Record<string, string> = {
 }
 
 export default function Publications() {
-  const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'done'>('idle')
 
-  const handleSync = async () => {
-    setSyncStatus('syncing')
-    // TODO: Replace with actual sync — call /.netlify/functions/sync_scholar
-    // or trigger GitHub Action via workflow_dispatch
-    // For now, simulate a fetch
-    await new Promise(r => setTimeout(r, 1800))
-    setSyncStatus('done')
-    setTimeout(() => setSyncStatus('idle'), 3000)
-  }
 
   return (
     <section id="publications" className="py-24 px-4 sm:px-6 fade-section">
@@ -35,17 +25,7 @@ export default function Publications() {
               Research Papers
             </h2>
           </div>
-          <button onClick={handleSync}
-            className={`flex items-center gap-2 px-4 py-2 glass border rounded text-sm font-mono transition-all duration-200 ${
-              syncStatus === 'syncing'
-                ? 'border-cyber-cyan/50 text-cyber-cyan animate-pulse'
-                : syncStatus === 'done'
-                ? 'border-green-400/50 text-green-400'
-                : 'border-cyber-border text-cyber-muted hover:border-cyber-cyan/40 hover:text-cyber-cyan'
-            }`}>
-            <RefreshCw size={14} className={syncStatus === 'syncing' ? 'animate-spin' : ''} />
-            {syncStatus === 'idle' ? 'Sync Scholar' : syncStatus === 'syncing' ? 'Syncing...' : '✓ Updated'}
-          </button>
+
         </div>
 
         <div className="space-y-5">
