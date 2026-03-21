@@ -156,7 +156,7 @@ export default function Hero() {
               </a>
               <a href="#contact"
                 className="flex items-center gap-2 px-5 py-2.5 glass border border-cyber-coral/30 text-cyber-coral font-display font-600 text-sm rounded hover:border-cyber-coral/60 transition-all duration-200">
-                <Briefcase size={16} /> Hire Me
+                <Briefcase size={16} /> Let's Collaborate
               </a>
             </div>
           </div>
@@ -166,7 +166,7 @@ export default function Hero() {
             {/* Portrait placeholder */}
             <div className="relative">
               <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-2xl overflow-hidden border-2 border-cyber-cyan/30 glow-cyan">
-                <img src="public\photos\Chirag_dp_linkedin.png" alt="Chirag Chawla"
+                <img src="\photos\Chirag_dp_linkedin.png" alt="Chirag Chawla"
                   className="w-full h-full object-cover"
                   onError={e => {
                     const t = e.target as HTMLImageElement
