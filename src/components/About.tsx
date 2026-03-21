@@ -56,7 +56,7 @@ export default function About() {
                   {s.icon} {s.label}
                 </a>
               ))}
-              <a href="https://drive.google.com/file/d/1NMBM8m3ATPryBZrrJrXNO64zRhO9AKFy/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+              <a href="https://drive.google.com/file/d/1PNRwBd0fTl8HfqNKF9RXDn-rNj8KwFuR/view?usp=sharing" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-cyber-cyan text-cyber-bg rounded text-sm font-600 hover:shadow-[0_0_15px_rgba(0,245,212,0.4)] transition-all">
                 <Download size={16} /> Download CV
               </a>
