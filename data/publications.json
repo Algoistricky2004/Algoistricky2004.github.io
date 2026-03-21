@@ -1,4 +1,30 @@
 [
+    {
+    "id": "persona-biosumm-2026",
+    "title": "Beyond One-Size-Fits-All: Multi-Agent Framework for Persona-Based Biomedical Summarization",
+    "authors": ["Rohan Charudatt Salvi", "Chirag Chawla", "Shweta Yadav", "Md Shad Akhtar"],
+    "venue": "Proceedings of the Third Workshop on Patient-Oriented Language Processing (CL4Health), 2026",
+    "year": 2026,
+    "arxivId": "",
+    "url": "",
+    "citations": 0,
+    "tags": ["Biomedical NLP", "Multi-Agent", "Summarization", "Persona", "LLM"],
+    "abstract": "A multi-agent framework for persona-based biomedical summarization that goes beyond one-size-fits-all approaches, generating tailored summaries for clinicians, policymakers, patients, and students using specialized agents.",
+    "note": "Accepted"
+  },
+  {
+    "id": "percs-2025",
+    "title": "PERCS: Persona-Guided Controllable Biomedical Summarization Dataset",
+    "authors": ["Rohan Charudatt Salvi", "Chirag Chawla", "Dhruv Jain", "Swapnil Panigrahi", "Md Shad Akhtar", "Shweta Yadav"],
+    "venue": "arXiv preprint arXiv:2512.03340",
+    "year": 2025,
+    "arxivId": "2512.03340",
+    "url": "https://arxiv.org/abs/2512.03340",
+    "citations": 0,
+    "tags": ["Biomedical NLP", "Controllable Generation", "Summarization", "Dataset"],
+    "abstract": "PERCS introduces a novel dataset of biomedical abstracts paired with persona-tailored summaries for four audiences: clinicians, policymakers, patients, and students.",
+    "note": ""
+  },
   {
     "id": "aligntune-2026",
     "title": "AlignTune: Modular Toolkit for Post-Training Alignment of Large Language Models",
@@ -13,16 +39,17 @@
     "note": "Co-first author"
   },
   {
-    "id": "percs-2025",
-    "title": "PERCS: Persona-Guided Controllable Biomedical Summarization Dataset",
-    "authors": ["Rohan Charudatt Salvi", "Chirag Chawla", "Dhruv Jain", "Swapnil Panigrahi", "Md Shad Akhtar", "Shweta Yadav"],
-    "venue": "arXiv preprint arXiv:2512.03340",
-    "year": 2025,
-    "arxivId": "2512.03340",
-    "url": "https://arxiv.org/abs/2512.03340",
+    "id": "mgtext-detect-2026",
+    "title": "Detecting the Machine: A Comprehensive Benchmark of AI-Generated Text Detectors Across Architectures, Domains, and Adversarial Conditions",
+    "authors": ["Madhav S. Baidya", "S. S. Baidya", "Chirag Chawla"],
+    "venue": "arXiv preprint arXiv:2603.17522",
+    "year": 2026,
+    "arxivId": "2603.17522",
+    "url": "https://arxiv.org/abs/2603.17522",
     "citations": 0,
-    "tags": ["Biomedical NLP", "Controllable Generation", "Summarization", "Dataset"],
-    "abstract": "PERCS introduces a novel dataset of biomedical abstracts paired with persona-tailored summaries for four audiences: clinicians, policymakers, patients, and students.",
+    "tags": ["AI-Generated Text Detection", "LLM", "Benchmark", "Adversarial Robustness", "NLP"],
+    "abstract": "A comprehensive benchmark systematically evaluating detection approaches for machine-generated text across HC3 and ELI5 corpora, spanning fine-tuned transformers, stylometric hybrids, perplexity-based detectors, and LLM-as-detector prompting under zero-shot and adversarial conditions.",
     "note": ""
   }
+  
 ]

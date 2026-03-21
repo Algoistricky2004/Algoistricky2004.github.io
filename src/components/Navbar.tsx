@@ -79,7 +79,7 @@ export default function Navbar({ activeSection, dashMode }: NavbarProps) {
               className="text-cyber-muted hover:text-cyber-cyan transition-colors p-1">
               <TwitterX />
             </a>
-            <a href="https://drive.google.com/file/d/1NMBM8m3ATPryBZrrJrXNO64zRhO9AKFy/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+            <a href="https://drive.google.com/file/d/1PNRwBd0fTl8HfqNKF9RXDn-rNj8KwFuR/view?usp=sharing" target="_blank" rel="noopener noreferrer"
               className="ml-2 px-3 py-1.5 font-mono text-xs border border-cyber-cyan text-cyber-cyan hover:bg-cyber-cyan hover:text-cyber-bg transition-all duration-200 rounded">
               CV.pdf
             </a>
